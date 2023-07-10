@@ -85,7 +85,7 @@ main {
 
 .first-section-images .images {
   border-radius: 300px 300px 0px 0px;
-  /* background: rgba(5, 151, 160, 0.15); */
+  background: rgba(229, 84, 115, 0.1);
   width: 464px;
   height: 538px;
   display: flex;
@@ -135,14 +135,42 @@ main {
 
 .second-section-review > .review-cards {
   border: 150px 150px 0px 0px;
-  background: rgba(1, 24, 26, 0.13);
+  /* background: rgba(1, 24, 26, 0.144); */
+  /* border-radius: 8px; */
+  background: rgba(39, 39, 39, 0.05);
   width: 464px;
   height: 200px;
   border-radius: 8px;
-  box-shadow: 2px 2px 6px 6px rgba(128, 128, 128, 0.801);
+  box-shadow: 2px 2px 6px 6px rgba(128, 128, 128, 0.233);
 }
 .second-section-paragraph {
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.third-section-container {
+  margin-top: 128px;
+  padding-left: 423px;
+  /* padding-right: 423px; */
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  height: 620px;
+}
+.third-section-left {
+  width: 50%;
+  padding-top: 230px;
+}
+.third-section-btn {
+  padding-top: 32px;
+  text-align: center;
+}
+.third-section-right {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 200px;
 }
