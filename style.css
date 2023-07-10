@@ -174,3 +174,48 @@ main {
   align-items: center;
   padding-left: 200px;
 }
+.fourth-section-container {
+  padding-top: 128px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+.fourth-section-images {
+  padding-top: 48px;
+  display: flex;
+  gap: 25px;
+}
+.fourth-section-images > .images > img {
+  height: 396px;
+}
+.five-section-container {
+  padding-top: 128px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+.fifth-section-background {
+  background-image: url("./Rectangle\ 9.png");
+  border-radius: 8px;
+  width: 1440px;
+  height: 327px;
+  padding-top: 122px;
+}
+.fifth-section-input {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 287px;
+  gap: 16px;
+}
+.fifth-section-input > .input > input {
+  width: 700px;
+  border-radius: 8px;
+  background: #fff;
+  border: 0px solid white;
+  padding: 23px;
+  font-size: 16px;
+  outline: white;
+}
+.fifth-section-input > .input > input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-weight: 400;
+  line-height: normal;
+}
