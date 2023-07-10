@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/* Universal Selector */
 * {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+/* Start of body styles */
 body {
-  width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
 }
+/* header styles */
 .header-container {
   padding-left: 240px;
   padding-right: 240px;
@@ -51,9 +52,14 @@ body {
   width: 50%;
   padding-top: 50px;
 }
+/* end of header styles */
+/* main styles */
 main {
   background: #f9f9fc;
   padding-bottom: 128px;
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .first-section-container {
@@ -110,8 +116,6 @@ main {
   justify-content: space-around;
 }
 .first-section-links > .links > a {
-  /* display: flex;
-  justify-content: center; */
   color: #272727;
   text-align: center;
   font-size: 24px;
@@ -150,7 +154,6 @@ main {
 .third-section-container {
   margin-top: 128px;
   padding-left: 423px;
-  /* padding-right: 423px; */
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   display: flex;
@@ -217,7 +220,9 @@ main {
   font-weight: 400;
   line-height: normal;
 }
+/* end of main */
 
+/* footer section */
 footer {
   background: #111010;
   height: 449px;
@@ -244,3 +249,5 @@ footer {
   font-style: normal;
   font-weight: 400;
 }
+/* end of footer */
+/* end of main */
