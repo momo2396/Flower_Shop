@@ -53,6 +53,9 @@ body {
 .half-header-right {
   width: 50%;
   padding-top: 50px;
+  /* padding-right: 97px; */
+  display: flex;
+  justify-content: flex-end;
 }
 /* end of header styles */
 /* main styles */
@@ -153,6 +156,7 @@ main {
 .third-section-container {
   margin-top: 128px;
   padding-left: 423px;
+  /* padding-left: 800px; */
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   display: flex;
@@ -172,7 +176,9 @@ main {
   width: 50%;
   display: flex;
   align-items: center;
-  padding-left: 200px;
+  /* justify-content: flex-end; */
+  /* padding-left: 200px; */
+  /* padding-right: 240px; */
 }
 .fourth-section-container {
   padding-top: 128px;
@@ -231,7 +237,7 @@ footer {
 }
 .footer-title {
   color: #e55473;
-  font-size: 60px;
+  font-size: 48px;
   font-weight: 800;
   text-align: center;
 }
